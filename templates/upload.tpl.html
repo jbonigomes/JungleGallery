@@ -1,0 +1,32 @@
+[+uploadValidation+]
+<form enctype="multipart/form-data" action="index.php?page=3" method="post">
+	<dl>
+		<dt>
+			<label for="imageTitle">[+imageTitle+]</label>
+		</dt>
+		<dd>
+			<input id="imageTitle" name="imageTitle" type="text" value="[+imageTitleValue+]" />
+		</dd>
+	</dl>
+	<dl>
+		<dt>
+			<label for="image">[+imageFile+]</label>
+		</dt>
+		<dd>
+			<input id="image" name="image" type="file" />
+		</dd>
+	</dl>
+	<dl>
+		<dt>
+			<label for="imageDescription">[+imageDescription+]</label>
+		</dt>
+		<dd>
+			<textarea rows="6" cols="25" id="imageDescription" name="imageDescription">[+imageDescValue+]</textarea>
+		</dd>
+	</dl>
+	<div>
+		<button class="upload" type="submit" name="uploadImage">
+			<img id="upload" src="images/app/upload.png" alt="Upload" />
+		</button>
+	</div>
+</form>

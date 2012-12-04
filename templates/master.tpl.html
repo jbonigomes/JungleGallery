@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>[+title+]</title>
+		<link rel="icon" type="image/ico" href="images/app/favicon.png"/>
+		<link rel="stylesheet" type="text/css" href="styles/reset.css" />
+		<link rel="stylesheet" type="text/css" href="styles/styles.css" />
+	</head>
+	<body>
+		<div id="header">
+			<form method="get" action="index.php">
+				<div id="currLang">
+					<img src="images/app/[+langCode+].png" alt="[+langName+]" />
+					<img src="images/app/downArrow.png" alt="[+langName+]" class="arrow" />
+					<p>[+langName+]</p>
+				</div>
+				<div id="lang">[+langList+]
+					<input type="hidden" name="page" value="[+currentPage+]" />
+					<input type="hidden" name="img" value="[+currentImgId+]" />
+				</div>
+			</form>
+			<h1><!-- [+appName+] Logo --></h1>
+			<div class="navBar">
+				<a href="index.php">[+home+]</a>
+				<a href="index.php?page=3">[+upload+]</a>
+			</div>
+		</div>
+		<div id="content">
+			<div class="contentWrap">
+				[+mainFrame+]
+			</div>
+			<img id="leaf" src="images/app/favicon.png" alt="[+leaf+]" />
+		</div>
+		<div id="footer">
+			<div id="copyright">
+				<p>&copy; [+appName+] - [+allRightsReserved+] [+year+] - 
+				[+iconsBy+] <a href="http://dryicons.com">dryicons.com</a> - 
+				[+flagsBy+] <a href="http://www.icondrawer.com">www.icondrawer.com</a> - 
+				[+validationIconsBy+] <a href="http://www.validationicons.com/">www.validationicons.com</a></p>
+				<a href="http://jigsaw.w3.org/css-validator/check/referer" class="validation"><img src="images/app/validCSS.png" alt="[+validCSS+]" /></a>
+				<a href="http://validator.w3.org/check?uri=referer" class="validation"><img src="images/app/validXHTML.png" alt="[+validXHTML+]" /></a>
+			</div>
+		</div>
+	</body>
+</html>
