@@ -68,16 +68,14 @@ To add a new language, follow the steps below:
 
   [http://icondrawer.com/free.php](http://icondrawer.com/free.php)
 
-- Extract the package and copy only the required flag(s) to
-
-    images/app
+- Extract the package and copy only the required flag(s) to `images/app`
 
   - The images used for this application are the 32px x 32px, thus located
   inside the folder named 32
 
-  - Rename the file (keep the file extension), this application uses ISO 639-1
+  - Rename the file (keep the file extension), this application uses `ISO 639-1`
   codes to differentiate between languages but the images from IconDrawer use
-  ISO 3166-1 alpha-2 codes
+  `ISO 3166-1` alpha-2 codes
 
   - This link can help with the conversion:
 
@@ -91,7 +89,7 @@ extension)
 be found in the comments section of the language file (at the top)
 
 - On `config.php`, add the new language to the `$language` array (in the
-language section), the key should be the ISO 639-1, same as above and the value
+language section), the key should be the `ISO 639-1`, same as above and the value
 should be the language name as it should be displayed
 
   - For example, to add Portuguese language, a new line that reads
